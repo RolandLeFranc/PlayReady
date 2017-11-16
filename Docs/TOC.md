@@ -82,7 +82,7 @@
 
 ### [Glossary](Overview/glossary.md)
 
-### [Specifications](Specifications/specifications.md)
+### [Specifications](Specifications/specifications1.md)
 
 #### [PlayReady DRM Plug-in for Android Specification](Specifications/PlayReady_DRM_Plugin_for_Android/playreadydrmpluginforandroidspecification.md)
 
