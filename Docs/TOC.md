@@ -64,7 +64,7 @@
 
 #### [Revocation](Overview/revocation.md)
 
-#### [PlayReady Interoperability With Other Protection Techologies](Overview/playreadyinteroperabilitywithotherprotectiontechnologies.md)
+#### [PlayReady and Other Protection Techologies](Overview/playreadyandotherprotectiontechnologies.md)
 
 ### [Common PlayReady Scenarios](Overview/commonplayreadyscenarios.md)
 
