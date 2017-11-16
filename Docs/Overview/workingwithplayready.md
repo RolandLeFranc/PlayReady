@@ -77,7 +77,7 @@ For more information about PlayReady on Azure, see [Announcing Azure Media Servi
 
 You can use the PlayReady Client SDK for iOS to create apps capable of providing PlayReady content to the user while enforcing the access rules defined by the content provider. Information about how to develop PlayReady capable applications can be found in the PlayReady Client SDK for iOS in the PlayReady documentation supplied to licensees.
 
-You also map digital rights management plug-ins on Android to PlayReady calls. For more information on how to use these PlayReady calls, see [PlayReady DRM Plug-in for Android Microsoft Specification](playreadydrmpluginforandroidspecification.md).
+You also map digital rights management plug-ins on Android to PlayReady calls. For more information on how to use these PlayReady calls, see [PlayReady DRM Plug-in for Android Microsoft Specification](../Specifications/PlayReady_DRM_Plugin_for_Android/playreadydrmpluginforandroidspecification.md).
 
 ### PlayReady documentation
 
@@ -103,7 +103,7 @@ Microsoft supplies all of the documentation that describes how to develop and de
 
       Provides training slides that describe how to implement PlayReady clients and servers. This website is restricted to licensees. 
 
-   *  [PlayReady Training Video Recording](http://test.playready.microsoft.com/Home/Trainings)
+   *  [PlayReady Training Video Recording](http://test.playready.microsoft.com/Home/DocSupportTutorials)
 
       Provides video training and PlayReady conference videos that describe in detail aspects of PlayReady implementation. This website is restricted to licensees and requires an authorization token.
 

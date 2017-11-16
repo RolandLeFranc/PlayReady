@@ -31,7 +31,7 @@ The following topics describe the fundamental technologies that enable the scena
 | [PlayReady Secure Stop](playreadysecurestop.md)| Describes how service providers can receive secure acknowledgement when media playback has stopped for any given piece of content.
 | [Individualization](individualization.md)| Describes the process of updating the PlayReady runtime on the client computer, allowing licenses to be bound to the client computer. |
 | [Revocation](revocation.md)| Describes the process that identifies clients with compromised security and prevents them from getting access to additional licenses. |
-| [PlayReady Interoperability With Other Protection Technologies](playreadyinteroperabilitywithotherprotectiontechnologies.md)| Describes how PlayReady ecosystems are able to interoperate with other content protection systems. |
+| [PlayReady and Other Protection Technologies](playreadyandotherprotectiontechnologies.md)| Describes how PlayReady ecosystems are able to interoperate with other content protection systems. |
 
 
 
