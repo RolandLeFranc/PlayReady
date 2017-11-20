@@ -19,7 +19,4 @@ Microsoft PlayReady is a set of technologies you can use to distribute content s
 
 As of 2017, thousands of services around the world and more than four billion devices use PlayReady.
 
-
-
-
- 
+PlayReady 3.0 and above supports media content composed of audio and video, such as music or movies. Earlier versions of PlayReady (1.X and 2.X) also supported other types of content, such as executable applications and ebooks. 
