@@ -41,31 +41,37 @@ Here is the content flow in the overall system: 
 
 ![Content Flow Diagram](../images/common_encryption.png)
 
-1.  First, the service generates a content key (CK)&mdash;typically a AES 128 bit key, and an encryption mode, typically AESCTR or AESCBC, plain or partial&mdash;and a Key Identifier (KID, typically a 128-bit **GUID**).
+1.  First, the service generates a content key (CK)&mdash;typically a AES 128 bit key, and an encryption mode, typically AESCTR or AESCBC, plain or partial&mdash;and a key identifier (KID, typically a 128-bit **GUID**).
 
 2.  The service packages the clear file: 
 
-    a.  Encrypts the video and audio frames using Ck and outputs the protected file.
+    a.  Encrypts the video and audio frames using CK and outputs the protected file.
+
     b.  Generates a PlayReady Header including the KID, based on the PlayReady specifications, and includes it in the header of the protected file.
+
     c.  Generates a DRM B Header, based on DRM B specifications, and includes it in the header of the protected file.
 
 3.  The service delivers the protected file to the PlayReady client:
 
     a.  The PlayReady client parses the protected content and discovers the PlayReady Header (among other headers).
+
     b.  The PlayReady client uses the PlayReady Header information to request a license from the service's PlayReady license server, which returns a license containing the CK.
+
     c.   The PlayReady client uses the CK to decrypt the protected content and render it.
 
 4.  The service delivers the protected file to the DRM B client:
 
     a.  The DRM B client parses the protected content, discovers the DRM B Header (among other headers).
+
     b.  The DRM B client uses the DRM B Header information to request a license from the service's DRM B license server, which returns a license containing the CK.
+
     c.  The DRM B client uses the CK to decrypt the protected content and render it.
     
 For additional information about the MPEG Common Encryption Standard, see: 
 
-    *  [MPEG Common Encryption](https://en.wikipedia.org/wiki/MPEG_Common_Encryption)
-    *  [ISO Common Encryption ('cenc') Protection Scheme for ISO Base Media File Format Stream Format](https://w3c.github.io/encrypted-media/format-registry/stream/mp4.html)
-    *  [ISO Common Encryption EME Stream Format and Initialization Data](https://www.w3.org/TR/2014/WD-encrypted-media-20140828/cenc-format.html)
+   *  [MPEG Common Encryption](https://en.wikipedia.org/wiki/MPEG_Common_Encryption)
+   *  [ISO Common Encryption ('cenc') Protection Scheme for ISO Base Media File Format Stream Format](https://w3c.github.io/encrypted-media/format-registry/stream/mp4.html)
+   *  [ISO Common Encryption EME Stream Format and Initialization Data](https://www.w3.org/TR/2014/WD-encrypted-media-20140828/cenc-format.html)
 
 > ![](../images/note.gif)**Note** This mechanism can be extended to content encrypted with multiple keys, for example, in multi-track or multi-quality content where different tracks are encrypted with different content keys, or in content where content keys are changed periodically (rotating keys). 
     
