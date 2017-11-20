@@ -50,6 +50,8 @@
 
 ##### [Licenses Restricted by Extensible Policy](Overview/licensesrestrictedbyextensiblepolicy.md)
 
+##### [Best Practices for License Policies](Overview/bestpractices.md)
+
 #### [Trusted Clocks](Overview/trustedclocks.md)
 
 #### [PlayReady Metering](Overview/playreadymetering.md)
