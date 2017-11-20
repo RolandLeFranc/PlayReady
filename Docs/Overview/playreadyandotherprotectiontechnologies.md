@@ -39,7 +39,7 @@ Let's take the example of a service delivering protected content to PlayReady cl
  
 Here is the content flow in the overall system: 
 
-![Content Flow Diagram](../images/content_flow.png)
+![Content Flow Diagram](../images/common_encryption.png)
 
 1.  First, the service generates a content key (CK)&mdash;typically a AES 128 bit key, and an encryption mode, typically AESCTR or AESCBC, plain or partial&mdash;and a Key Identifier (KID, typically a 128-bit **GUID**).
 
