@@ -46,8 +46,9 @@ The metering process performs the following steps, as illustrated in the figure:
    1. End users acquire this content and receive a license for that content, through the standard license acquisition process.
   
    1. A media player on a device opens this content license. The DRM component of the media player records metering data, which includes a tally of the number of times the content is used, the type of action performed, and the metering identifier.
-  
-      > ![](../images/note.gif)**Note** When recording metering data, the media player uses the license key identifier to tally the counted actions. So to track metering information for individual content items, you must protect each content item using a unique key identifier.  
+
+      > [!NOTE]
+      > When recording metering data, the media player uses the license key identifier to tally the counted actions. So to track metering information for individual content items, you must protect each content item using a unique key identifier.  
 
    1. A metering plug-in or app on the device periodically requests metering data for a specific metering identifier and then sends the data to the corresponding metering aggregation service.
   

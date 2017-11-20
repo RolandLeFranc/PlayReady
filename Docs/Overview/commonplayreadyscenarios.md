@@ -27,6 +27,7 @@ The following topics illustrate the typical ways that PlayReady is applied to bu
 | [Super Distribution](scenariosuperdistribution.md)| Content from one client is copied to another client, and that client can then play the content back.| 
 
 &nbsp;
-   
-> ![](../images/note.gif)**Note** The scenarios described in these topics offer one way of enabling a business scenario. There are alternative ways of implementing these PlayReady scenarios.  
+
+> [!NOTE]
+> The scenarios described in these topics offer one way of enabling a business scenario. There are alternative ways of implementing these PlayReady scenarios.  
  

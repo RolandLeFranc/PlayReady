@@ -73,7 +73,8 @@ For additional information about the MPEG Common Encryption Standard, see: 
    *  [ISO Common Encryption ('cenc') Protection Scheme for ISO Base Media File Format Stream Format](https://w3c.github.io/encrypted-media/format-registry/stream/mp4.html)
    *  [ISO Common Encryption EME Stream Format and Initialization Data](https://www.w3.org/TR/2014/WD-encrypted-media-20140828/cenc-format.html)
 
-> ![](../images/note.gif)**Note** This mechanism can be extended to content encrypted with multiple keys, for example, in multi-track or multi-quality content where different tracks are encrypted with different content keys, or in content where content keys are changed periodically (rotating keys). 
+> [!NOTE]
+> This mechanism can be extended to content encrypted with multiple keys, for example, in multi-track or multi-quality content where different tracks are encrypted with different content keys, or in content where content keys are changed periodically (rotating keys). 
     
 
 ## Play enablers  
