@@ -91,7 +91,8 @@ A Play Enabler object is an optional right that a license may contain, if it's s
 
 A **CopyEnabler**  represents a technology that content from a PlayReady client is allowed to copy to.
 
-> ![](../images/note.gif)**Note** This is not the operation of copying PlayReady protected content from one location to another, which does not require any right. This is the operation of copying the protected content AND the right or license to play it.
+> [!NOTE]
+> This is not the operation of copying PlayReady protected content from one location to another, which does not require any right. This is the operation of copying the protected content AND the right or license to play it.
 
  
 
@@ -99,20 +100,23 @@ For example, a PlayReady client may decrypt PlayReady content to re-encrypt it u
 
 A Copy Enabler object is an optional right that a license may contain. If it is present, the client is allowed to copy the content to the corresponding format and storage. Note that a Copy Enabler involves an Export operation if making the corresponding copy requires transcription (that is, PlayReady decryption and re-encryption with a different encryption key and format). 
 
-> ![](../images/note.gif)**Note** Copy Enablers were supported up to PlayReady 2.X. They are no longer supported by clients 3.0 and above.
+> [!NOTE]
+> Copy Enablers were supported up to PlayReady 2.X. They are no longer supported by clients 3.0 and above.
 
 
 ## Move Enablers
 
 A **MoveEnabler** represents a technology that content from a PlayReady client is allowed to move to.
 
-> ![](../images/note.gif)**Note** This is not the operation of moving PlayReady protected content from one location to another, which does not require any right. This is the operation of moving the protected content AND the right or license to play it.
+> [!NOTE]
+> This is not the operation of moving PlayReady protected content from one location to another, which does not require any right. This is the operation of moving the protected content AND the right or license to play it.
 
 For example, a PlayReady client may decrypt PlayReady content to re-encrypt it using CPRM and store it onto a CPRM enabled drive, then deleting the original PlayReady protected content and license. This operation moves the content (the original PlayReady protect content file no longer exist on the device, but a copy has been created on the Content Protection for Recordable Media (CPRM)-enabled drive), and involves transcription (PlayReady decryption and CSS re-encryption). 
 
 A Move Enabler object is an optional right that a license may contain. If it is present, the client is allowed to move the content to the corresponding format and storage. Note that a Move Enabler involves an Export operation if making the corresponding destination format requires transcription (that is, PlayReady decryption and re-encryption with a different encryption key and format). 
 
-> ![](../images/note.gif)**Note** Move Enablers were supported up to PlayReady 2.X. They are no longer supported by clients 3.0 and above.
+> [!NOTE]
+> Move Enablers were supported up to PlayReady 2.X. They are no longer supported by clients 3.0 and above.
 
 
 ## Import and Export
