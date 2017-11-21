@@ -35,7 +35,7 @@ The following table shows the feature availability for each version of the PlayR
 >|Mar'15|**3.0** | - [SL3000](usinghardwarebasedteecontentprotection.md)<br/>- Multiple Keys<br/>- Secure Stop<br/>- Improvements for non-persistent licenses|[3.0](whatsnewinplayreadyserversdkv30.md)| [ 3.0.4019](whatsnewinplayreadydeviceportingkit30.md) | 3.0.2726 | &mdash; | &mdash; | &mdash;  |
 >|Sep'16|**3.2** | [Secure Time](trustedclocks.md) (Secure Clock Service in the TEE)|&mdash;|[3.2.4242](whats-new-in-playready-device-porting-kit-3-2.md)|[3.2.4242](aboutthecertificategenerationrequestkit.md) | Deprecated | No further enhancements | Deprecated |
 >|Apr'17|**3.3** | - New [CDMi module](creatingadeviceappusingthecdmiinterface.md)<br/>- Fix for vulnerabilities in the PK header parser |&mdash;|[3.3.4474](whatsnewinplayreadydeviceportingkit33.md)| 3.3.4475 | &mdash;| &mdash;| &mdash;|
->|Oct'17|**4.0**| - Expanded support for multiple [Common Encryption Modes](playreadycontentencryptionmodes.md), includinding CBC1, CBCS, and CENS.<br/>- [Secure Delete](playreadysecuredelete.md) support | [4.0.5117](whatsnewinplayreadyserversdkv40.md) | [4.0.5102](whatsnewinplayreadydeviceportingkit40.md) | 4.0| No longer distributed (see [PlayReady on Windows](workingwithplayredy.md##prwindows))| &mdash;| No longer distributed|
+>|Oct'17|**4.0**| - Expanded support for multiple [Common Encryption Modes](playreadycontentencryptionmodes.md), includinding CBC1, CBCS, and CENS.<br/>- [Secure Delete](playreadysecuredelete.md) support | [4.0.5117](whatsnewinplayreadyserversdkv40.md) | [4.0.5102](whatsnewinplayreadydeviceportingkit40.md) | 4.0| No longer distributed (see [PlayReady on Windows](workingwithplayready.md##prwindows))| &mdash;| No longer distributed|
 
 
 
