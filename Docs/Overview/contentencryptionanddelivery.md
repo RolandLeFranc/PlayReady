@@ -19,7 +19,7 @@ ms.technology: drm
   
 The basic capability of PlayReady is to protect content from unwanted malicious attacks. To do this, your content must first be encrypted and an associated PlayReady header inserted in the content. You can either design this system yourself, or you could contract with a [PlayReady Partner](https://www.microsoft.com/playready/partners/) to supply this functionality for you.
 
-In this topic, we will describe various means of encrypting your content, including describing different means of using the PlayReady Header.
+This topic describes various ways to encrypt and deliver your content using PlayReady.
 
 ## Inserting the DRM header
 
