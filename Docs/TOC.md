@@ -24,6 +24,8 @@
 
 #### [Content Encryption and Delivery](Overview/contentencryptionanddelivery.md)
 
+#### [PlayReady in Clients](Overview/playreadyinclients.md)
+
 ### [About PlayReady Technologies](Overview/aboutplayreadytechnologies.md)
 
 #### [PlayReady Communication Protocols](Overview/playreadycommunicationprotocols.md)
