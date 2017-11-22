@@ -1,4 +1,4 @@
- ---
+---
 author: 
 title: "Content Encryption and Delivery"
 description: ""

@@ -20,7 +20,7 @@
 
 #### [PlayReady Device Porting Kit](Overview/playreadyportingkit.md)
 
-### [How to Use PlayReady](Overiew/howtouseplayready.md)
+### [How to Use PlayReady](Overview/howtouseplayready.md)
 
 #### [Content Encryption and Delivery](Overview/contentencryptionanddelivery.md)
 
