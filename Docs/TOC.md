@@ -26,6 +26,10 @@
 
 #### [PlayReady in Clients](Overview/playreadyinclients.md)
 
+#### [PlayReady License Services](Overview/playreadylicenseservices.md)
+
+#### [Optional PlayReady Servers](Overview/optionalplayreadyservers.md)
+
 ### [About PlayReady Technologies](Overview/aboutplayreadytechnologies.md)
 
 #### [PlayReady Communication Protocols](Overview/playreadycommunicationprotocols.md)
