@@ -34,5 +34,81 @@ A device that is embedding a DRM client (using the Content Decryption Module (CD
 
    *  On HTML5, the [Encrypted Media Extensions (EME)](http://www.w3.org/TR/encrypted-media/).
    
-   *  On Android, the [**DrmManagerClient** class](https://developer.android.com/reference/android/drm/DrmManagerClient.html). See the [PlayReady DRM Plugin for Android Microsoft Specification](../Specifications/PlayReady_DRM_Plugin_for_Android/playreadydrmpluginforandroidspecification.md) for more information.  
+   *  On Android, the [**DrmManagerClient** class](https://developer.android.com/reference/android/drm/DrmManagerClient.html). See the [PlayReady DRM Plugin for Android Microsoft Specification](../Specifications/PlayReady_DRM_Plugin_for_Android/playreadydrmpluginforandroidspecification.md) for more information.
+   
+There is another possible deployment model&mdash;developing the porting kit in the application. How you do this is entirely up to you (that is, whether you develop it yourself, or use an SDK supplied by a [Microsoft Partner](https://www.microsoft.com/playready/partners/), and will not be discussed in this document. 
+
+The following table shows the current availability and percentage of units shipping of PlayReady in non-Windows clients.
+
+<table>
+  <tr>
+    <th></th>
+    <th>In the hardware</th>
+    <th>In the OS</th>
+    <th>In the app</th>
+  </tr>
+  <tr>
+    <td>MacOS</td>
+    <td></td>
+    <td></td>
+    <td>Silverlight and 3rd parth SDKs</td>
+  </tr>
+  <tr>
+    <td>iOS</td>
+    <td></td>
+    <td></td>
+    <td>1st and 3rd party SDKs</td>
+  </tr>
+  <tr>
+    <td>Apple TV OS</td>
+    <td></td>
+    <td></td>
+    <td>3rd party SDKs</td>
+  </tr>
+  <tr>
+    <td>Chrome OS</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Android Mobile</td>
+    <td colspan="2" align="center">Some OEMs (42% units)</td>
+    <td>3rd party SDKs</td>
+  </tr>
+  <tr>
+    <td>Android TV</td>
+    <td colspan="2" align="center">All OEMs (100% units)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Linux TVs</td>
+    <td colspan="2" align="center">Most OEMs (80% units)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Consoles</td>
+    <td colspan="2" align="center">PlayStations and Xbox (87% units)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td >Network Receivers</td>
+    <td colspan="2" align="center">Most OEMs (95% units)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Blu Ray Disc Players</td>
+    <td colspan="2" align="center">Most OEMs (80% units)</td>
+    <td></td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
 
