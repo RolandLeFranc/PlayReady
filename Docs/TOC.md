@@ -34,9 +34,11 @@
 
 #### [PlayReady Communication Protocols](Overview/playreadycommunicationprotocols.md)
 
-#### [PlayReady Content Encryption Overview](Overview/playreadycontentencryptionoverview.md)
+#### [PlayReady Content Encryption](Overview/playreadycontentencryption.md)
 
-#### [PlayReady Content Encryption Modes](Overview/playreadycontentencryptionmodes.md)
+##### [PlayReady Content Encryption Overview](Overview/playreadycontentencryptionoverview.md)
+
+##### [PlayReady Content Encryption Modes](Overview/playreadycontentencryptionmodes.md)
 
 #### [Licenses](Overview/licenses.md)
 
