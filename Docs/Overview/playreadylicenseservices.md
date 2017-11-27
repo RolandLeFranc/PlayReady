@@ -32,7 +32,7 @@ You are not required to develop and deploy your own PlayReady license service. Y
 A PlayReady license server can be developed and deployed in numerous ways:
 
   *  Develop the license server yourself or through a third party.
-  *  Operate the license server yourself or through an ASP.
+  *  Operate the license server yourself or through an application service provider (ASP).
   *  Deploy on the premises, in a private cloud, or in a public cloud.
 
 ![PlayReady Server Implementations](playready_server_implementations.png)
