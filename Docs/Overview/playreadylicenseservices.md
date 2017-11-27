@@ -19,7 +19,7 @@ The process of obtaining a license to play back PlayReady protected content is h
 
 The following figure shows the steps that describe how a client gets a license from a PlayReady license service.
 
-![Video Service Architecture](video_service_arch.png)
+![Video Service Architecture](../images/video_service_arch.png)
 
   1.  The client obtains media to be played back.
   2.  The client initiates a license request from the PlayReady license service. The client can either proactively request the license before playing back the content, or reactively request the license once it discovers a license is required after playback begins.
@@ -35,7 +35,7 @@ A PlayReady license server can be developed and deployed in numerous ways:
   *  Operate the license server yourself or through an application service provider (ASP).
   *  Deploy on the premises, in a private cloud, or in a public cloud.
 
-![PlayReady Server Implementations](playready_server_implementations.png)
+![PlayReady Server Implementations](../images/playready_server_implementations.png)
 
 PlayReady Server SDK provides the following functionality for license servers:
 
