@@ -17,8 +17,6 @@ ms.technology: drm
 
 This topic discusses the parts of PlayReady that are supplied to client and server developers and the parts that must be supplied by you (depending on what parts of PlayReady you are going to develop).
 
-If you are an original equipment manufacturer (OEM), a PlayReady client developer, or a PlayReady service provider, you must first obtain a PlayReady license from Microsoft before you can begin developing your product. This will entitle you to receive from Microsoft all of the material you will need to create your product, whether it is an integrated circuit with built-in PlayReady functionality, a PlayReady app running on Windows, iOS, or Android, or a PlayReady server supplying licenses for specific content.
-
 Content providers are not required to develop either a PlayReady client or a PlayReady server to supply licenses for your content. Instead, you could obtain these services from third-party developers. In addition, if you are developing an encoder, you only need to add a PlayReady header object to your encryptor. However, you should read through the next sections to help understand the services that are available to you. 
 
 ## PlayReady parts supplied by Microsoft
@@ -27,7 +25,7 @@ The following sections describe the parts of PlayReady that are supplied by Micr
 
 ### License to use PlayReady
 
-If you are an original equipment manufacturer (OEM), a PlayReady client developer, or a PlayReady service provider, you must first obtain a PlayReady license from Microsoft before you can begin developing your product. This will entitle you to receive from Microsoft all of the material you will need to create your product, whether it is an integrated circuit with built-in PlayReady functionality, a PlayReady app running on Windows, iOS, or Android, or a PlayReady server supplying licenses for specific content.
+If you are an original equipment manufacturer (OEM), a PlayReady client developer, or a PlayReady service provider, you must first obtain a PlayReady license from Microsoft before you can begin developing your product. This will entitle you to receive from Microsoft all of the material you will need to create your product, whether it is an integrated circuit with built-in PlayReady functionality, a PlayReady application running on Windows, iOS, or Android, or a PlayReady server supplying licenses for specific content.
 
 There are separate licenses depending on what type of PlayReady product you intend to produce. For example, there are licenses for distributing a device, developing a downloadable software application, or developing server applications or deploying a PlayReady service to end-users. For more information about all of the licensing options for the various parts of PlayReady, see [PlayReady Licensing Options](https://www.microsoft.com/playready/licensing/).
 
@@ -134,11 +132,15 @@ SecureTime is provided as an optional service by PlayReady.
 <a id="whatyousupply"></a>
 ## What you supply
 
-What you supply to implement PlayReady depends entirely on what you are trying to develop. Basically, you can develop PlayReady functionality for clients or servers. However, you don't actually have to develop either one if you are a content provider; instead, you could obtain both from a third-party developer. In addition, you don't need to develop either one if you are adding PlayReady functionality to your encoder; you only have to add a PlayReady header during the encoding process. This section will try to clarify all of the different ways you can use PlayReady, and provide guidance on what you will need to supply for each type of product.
+What you supply to implement PlayReady depends entirely on what you are trying to develop. Basically, you can develop PlayReady functionality for clients or servers. However, you don't actually have to develop either one if you are a content provider; instead, you could obtain both from a third-party developer. In addition, you don't need to develop either one if you are adding PlayReady functionality to your encoder; you only have to add a PlayReady header during the encoding process. This section will clarify the different ways you can use PlayReady, and provide guidance on what you will need to supply for each type of product.
+
+### PlayReady encoder
+
+If you are developing an encoder utilizing PlayReady technologies, you will need to include a PlayReady Header in the encrypted content. The PlayReady Header contains information about the content being played back, including the key identifier (KID) that identify the keys used to encrypt the data, the licens acquisition URL of the PlayReady license server, and any custom data that you want to include. The key and KID encrypted in the content must be shared with the PlayReady license server that will be issuing the licenses for that specific content. 
 
 ### PlayReady client
 
-If you are going to develop a PlayReady client
+A PlayReady client can be any device or application that provides PlayReady protection for media content. A PlayReady client can be embedded in hardware, can be supplied as part of the operating system, or can be included in an application. The basic level of security that must be provided for each of these types of clients is documented in the [PlayReady Compliance and Robustness Rules](https://www.microsoft.com/playready/licensing/compliance/).
 
 #### Device on which to install the PlayReady Device Porting Kit
 

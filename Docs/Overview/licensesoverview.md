@@ -6,7 +6,7 @@ ms.assetid: "ead76d10-fe40-bf74-4fcd-e109fc2ba1bb"
 kindex: licenses, overview
 kindex: direct license acquisition, licenses overview
 kindex: predelivery, licenses overview
-keywords:  overview licenses,  licenses overview direct license acquisition,  licenses overview predelivery
+keywords: licenses, direct license acquisition, predelivery
 ms.author:
 ms.topic: conceptual
 ms.prod: playready
@@ -20,14 +20,14 @@ Licenses store the information necessary to access the associated content and st
 
 Licenses can be acquired in several ways:
 
-   *  **Direct license acquisition**&mdash;The DRM client initiates license acquisition. If the user tries to play a file and a valid license is not found, the player opens the license acquisition URL, which points to the license server.<br/>
-   *  **Predelivery**&mdash;The license is delivered to the DRM client before the content. For example, while a user is downloading a protected song, the content provider redirects the user to a Web site that issues a license for the content, thus allowing the user to play the content immediately after the download is complete, rather than having to acquire a license in a separate process.<br/>
+   *  **Direct license acquisition**&mdash;The DRM client initiates license acquisition. If the user tries to play a file and a valid license is not found, the player opens the license acquisition URL, which points to the license server.
+   *  **Predelivery**&mdash;The license is delivered to the DRM client before the content. For example, while a user is downloading a protected song, the content provider redirects the user to a Web site that issues a license for the content, thus allowing the user to play the content immediately after the download is complete, rather than having to acquire a license in a separate process.
 
 Each license contains the following information:
 
-   *  The content encryption key.<br/>
-   *  The rights and conditions of the license.<br/>
-   *  Optional attributes, such as a name and description of the license.<br/>
+   *  The content encryption key.
+   *  The rights and conditions of the license.
+   *  Optional attributes, such as a name and description of the license.
 
 ## License management in the PlayReady ecosystem
 
@@ -38,8 +38,8 @@ The following topics describe license management principles.
 
 | Topic| Description|
 | --- | --- |
-| [About License Generation and Issuance](licensegenerationandissuance.md)| Describes how licenses are created and issued to clients.|
-| [About License Chaining](licensechaining.md)| Describes how license chaining enables more efficient use of multiple licenses.|
+| [License Generation and Issuance](licensegenerationandissuance.md)| Describes how licenses are created and issued to clients.|
+| [License Chaining](licensechaining.md)| Describes how license chaining enables more efficient use of multiple licenses.|
 
 ## Policies and strategies for distributing licenses for PlayReady content
 
@@ -53,8 +53,8 @@ Information about policies and strategies for distributing licenses are covered 
 
 | Topic| Description|
 | --- | --- |
-| [About License Acquisition](licenseacquisition.md)| Describes license acquisition and the steps required to acquire a license.|
-| [About Embedded Licenses](embeddedlicenses.md)| Provides an overview of embedded licenses.|
+| [License Acquisition](licenseacquisition.md)| Describes license acquisition and the steps required to acquire a license.|
+| [Embedded Licenses](embeddedlicenses.md)| Provides an overview of embedded licenses.|
 | [Licenses Restricted by Binding Policies](licensesrestrictedbybindingpolicy.md)| Describes how to restrict licenses using different types of binding policies.|
 | [Licenses Restricted by Extensible Policies](licensesrestrictedbyextensiblepolicy.md)| Describes how to restrict licenses by extending the existing XMR policy system.|
 

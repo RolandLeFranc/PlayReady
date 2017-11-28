@@ -18,25 +18,16 @@ After a client retrieves a protected file, that client needs to acquire a licens
 
 Licenses are acquired either directly from license servers or through a proxy server.
 
-The following topics describe the different ways in which licenses can be used by PlayReady to play back content.
+## In This Section
 
-| Topic| Description|
-| --- | --- |
-| [Licenses Overview](licensesoverview.md)| Describes how to acquire and manage licenses, along with the policies for distributing licenses.|
-| [Output Protection Levels](outputprotectionlevels.md)| Describes the protection levels associated with content output.|
-| [License Generation and Issuance](licensegenerationandissuance.md)| Describes how licenses are created and issued to clients.|
-| [License Chaining](licensechaining.md)| Describes how license chaining enables more efficient use of multiple licenses.|
-| [Embedded Licenses](embeddedlicenses.md)| Provides an overview of embedded licenses.|
-| [License Nonce](licensenonce.md)| Describes how using the license nonce protects against attacks on non-persistent and persistent licenses.|
-| [Key and Key IDs](keyandkeyidskids1.md)|Describes how keys and key identifiers protect content, licenses, and other sensitive materials.|
-| [Licenses Restricted by Binding Policy](licensesrestrictedbybindingpolicy.md)| Describes how to restrict licenses using different types of binding policies.|
-| [Licenses Restricted by Extensible Policy](licensesrestrictedbyextensiblepolicy.md)| Describes how to restrict licenses by extending the existing XMR policy system.|
-
-
-
-
-
-
-
-
-
+[Licenses Overview](licensesoverview.md)
+[Output Protection Levels](outputprotectionlevels.md)
+[License Generation and Issuance](licensegenerationandissuance.md)
+[License Acquisition](licenseacquisition.md)
+[License Chaining](licensechaining.md)
+[Embedded Licenses](embeddedlicenses.md)
+[License Nonce](licensenonce.md)
+[Key and Key IDs](keyandkeyidskids1.md)
+[Licenses Restricted by Binding Policy](licensesrestrictedbybindingpolicy.md)
+[Licenses Restricted by Extensible Policy](licensesrestrictedbyextensiblepolicy.md)
+[Best Practices for License Policies](bestpractices.md)

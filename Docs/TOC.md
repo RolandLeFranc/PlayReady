@@ -100,16 +100,16 @@
 
 #### [PlayReady DRM Plug-in for Android Specification](Specifications/PlayReady_DRM_Plugin_for_Android/playreadydrmpluginforandroidspecification.md)
 
-#### [1. Introduction](Specifications/PlayReady_DRM_Plugin_for_Android/1introduction8.md)
+##### [1. Introduction](Specifications/PlayReady_DRM_Plugin_for_Android/1introduction8.md)
 
-#### [2. Interfaces](Specifications/PlayReady_DRM_Plugin_for_Android/2interfaces.md)
+##### [2. Interfaces](Specifications/PlayReady_DRM_Plugin_for_Android/2interfaces.md)
 
-#### [3. Operation](Specifications/PlayReady_DRM_Plugin_for_Android/3operation.md)
+##### [3. Operation](Specifications/PlayReady_DRM_Plugin_for_Android/3operation.md)
 
-#### [4. PlayReadyDRMPlugin](Specifications/PlayReady_DRM_Plugin_for_Android/4playreadydrmplugin.md)
+##### [4. PlayReadyDRMPlugin](Specifications/PlayReady_DRM_Plugin_for_Android/4playreadydrmplugin.md)
 
-#### [5. PlayReadyCryptoPlugin](Specifications/PlayReady_DRM_Plugin_for_Android/5playreadycryptoplugin.md)
+##### [5. PlayReadyCryptoPlugin](Specifications/PlayReady_DRM_Plugin_for_Android/5playreadycryptoplugin.md)
 
-#### [6. PlayReadyDrmFactory and PlayReadyCryptoFactory](Specifications/PlayReady_DRM_Plugin_for_Android/6playreadydrmfactoryandplayreadycryptofactory.md)
+##### [6. PlayReadyDrmFactory and PlayReadyCryptoFactory](Specifications/PlayReady_DRM_Plugin_for_Android/6playreadydrmfactoryandplayreadycryptofactory.md)
 
-#### [7. SessionManager](Specifications/PlayReady_DRM_Plugin_for_Android/7sessionmanager.md)
+##### [7. SessionManager](Specifications/PlayReady_DRM_Plugin_for_Android/7sessionmanager.md)

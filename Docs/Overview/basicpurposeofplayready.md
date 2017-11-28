@@ -28,7 +28,7 @@ On the left side of the illustration you can see the service has some servers to
 
 On the right side of the illustation are the clients. The clients could be Windows apps, iPhone apps, or specific devices such as set top boxes, Roku receivers, and so on. Some of these clients may come with a PlayReady integrated client in their players, for example, the OEM may have integrated PlayReady in the operating system or in the hardware. Others could come with a client integrated in the application that is published in the app store. There are many different options for players to integrate PlayReady on the client side.
 
-This document is going to focus on what PlayReady does for a service, as shown in the following figure.
+This topic is going to focus on what PlayReady does for a service, as shown in the following figure.
 
 ![What PlayReady Does For The Service](../images/playready_services.png)
 

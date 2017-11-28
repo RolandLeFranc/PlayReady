@@ -78,5 +78,7 @@ The following steps describe the content and license flow for license acquisitio
 
    
   
-For more information about license acquisition, see [License Acquisition](licenseacquisition.md).  
+For more information about license acquisition, see [License Acquisition](licenseacquisition.md). 
+
+The PlayReady encryption and licensing process is more fully explained in [Basic encryption and licensing process](basicpurposeofplayready.md#basicprocess).
   

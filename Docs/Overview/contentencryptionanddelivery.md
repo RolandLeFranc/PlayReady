@@ -77,7 +77,7 @@ There have been some enhancements in the past years to use multiple keys per ass
   *  A client that is allowed to play only up to Full HD (not the 4K track) will be delivered a PlayReady license including only {kid1, ck1}. 
   *  A client that is allowed to play up to 4K will be delivered a PlayReady license including {kid1, ck1} and {kid2, ck2}.
   
-  Using this additional complexity, the service can ensure that some clients will not be able to decrypt the 4K track, and that 4K track can be reserved to only the clients that the service most trusts. 
+Using this additional complexity, the service can ensure that some clients will not be able to decrypt the 4K track, and that 4K track can be reserved to only the clients that the service most trusts. 
 
 ![Content Assets and Encryption Keys (II)](../images/assets_and_encryption_keys_2.png)
 

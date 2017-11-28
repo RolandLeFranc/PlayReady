@@ -16,7 +16,7 @@ ms.technology: drm
 # License Acquisition
 
 
-To play protected content, a valid license for the content must be available. If there is no valid license for the content, the license must be acquired. During license acquisition, a client acquires its license from a license server or from a proxy server. The license acquisition client is a media player on mobile device, such as a phone or tablet, or on a personal computer. Clients for license acquisition connect directly to a license server and request licenses for content they have acquired.
+To play protected content, a valid license for the content must be available. If there is no valid license for the content, the license must be acquired. During license acquisition, a client acquires its license from a license server or from a proxy server. The license acquisition client is a media player on a mobile device, such as a phone or tablet, or on a personal computer. Clients for license acquisition connect directly to a license server and request licenses for content they have acquired.
 
 In the context of license acquisition, the license server and the packaging server are considered to be DRM servers. Portable devices and personal computers capable of license acquisition are considered to be clients.
 
@@ -39,7 +39,7 @@ The client on the consumer's portable device or personal computer provides funct
 
 
 
-Domain, metering, and secure stop support is included with PlayReady Server SDK.
+Domain, metering, secure stop, and secure delete support is also included with PlayReady Server SDK.
 
 <a id="ID4EUB"></a>
 
