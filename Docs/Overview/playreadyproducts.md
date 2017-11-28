@@ -36,4 +36,5 @@ PlayReady has been designed with mobile devices in mind. Mobile devices, enhance
 [PlayReady and Silverlight](playreadyandsilverlight.md)
 [PlayReady Client SDK for iOS](playreadyproductios.md)
 [PlayReady Device Porting Kit](playreadyportingkit.md)
+[Porting Kit Version Compatibility with Server SDK Versions](portingkitversioncompatibilitywithserversdkversions.md)
   

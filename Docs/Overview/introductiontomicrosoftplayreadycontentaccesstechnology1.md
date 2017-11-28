@@ -24,12 +24,21 @@ PlayReady 3.0 and above supports media content composed of audio and video, such
 ## In This Section
 
 [Microsoft PlayReady Ecosystem](microsoftplayreadyecosystem.md)
+
 [Basic Purpose of PlayReady](basicpurposeofplayready.md)
+
 [Working With PlayReady](workingwithplayready.md)
+
 [PlayReady Products](playreadyproducts.md)
+
 [How to Use PlayReady](howtouseplayready.md)
+
 [About PlayReady Technologies](aboutplayreadytechnologies.md)
+
 [Common PlayReady Scenarios](commonplayreadyscenarios.md)
+
 [PlayReady Product Versions](playreadyproductversions.md)
+
 [Glossary](glossary.md)
+
 [Specifications](../Specifications/specifications1.md)

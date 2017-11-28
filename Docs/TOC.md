@@ -20,6 +20,8 @@
 
 #### [PlayReady Device Porting Kit](Overview/playreadyportingkit.md)
 
+#### [Porting Kit Version Compatibility with Server SDK Versions](Overview/portingkitversioncompatibilitywithserversdkversions.md)
+
 ### [How to Use PlayReady](Overview/howtouseplayready.md)
 
 #### [Content Encryption and Delivery](Overview/contentencryptionanddelivery.md)
