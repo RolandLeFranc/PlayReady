@@ -76,7 +76,7 @@ For signing licenses, transient keys or data, PlayReady systems use AES OMAC1, w
 ## Runtime and performance considerations
 
 
-When content playback is triggered, the PlayReady client must perform some steps before initial playback can begin. This includes finding a license, binding, or interpreting the license, decrypting the content key, and finally, preparing decrypt the content. The PlayReady client stack takes time to bind a license to a piece of content, and this operation is required prior to starting the content decryption and rendering. This means that the time to bind a license impacts the time to first frame when starting a playback, or the gap between tracks. The client developer as well as the app developer might want to consider optimizing their code for runtime and performance issues, to reduce the time to first frame, and allow gapless playback.
+When content playback is triggered, the PlayReady client must perform some steps before initial playback can begin. This includes finding a license, binding, or interpreting the license, decrypting the content key, and finally, preparing decrypt the content. The PlayReady client stack takes time to bind a license to a piece of content, and this operation is required prior to starting the content decryption and rendering. This means that the time to bind a license impacts the time to first frame when starting a playback, or the gap between tracks. The client developer as well as the application developer might want to consider optimizing their code for runtime and performance issues, to reduce the time to first frame, and allow gapless playback.
 
 Protected containers use symmetric key encryption to encrypt the bulk of content. However, public key encryption is used within the license. This is because the license contains the content’s symmetric key, and the server uses the client’s public key to encrypt the content’s symmetric key.
 
@@ -84,7 +84,7 @@ When it is time to decrypt the content, the client's private key is used to decr
 
 Private key decryption is more intensive computationally, than symmetric decryption; therefore, interpreting the license is computationally intensive. Once the license has been properly handled, the symmetric key is decrypted and the content may be decrypted using small and fast algorithms.
 
-For apps or devices that are resource-constrained, start-up requires significant time and resources. Once that is complete, however, the resources are freed, decryption may proceed efficiently, and few CPU cycles or system resources are required.
+For applications or devices that are resource-constrained, start-up requires significant time and resources. Once that is complete, however, the resources are freed, decryption may proceed efficiently, and few CPU cycles or system resources are required.
 
 
 

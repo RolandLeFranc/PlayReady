@@ -29,7 +29,7 @@ The following high-level terms are used throughout this documentation.
 | Certificate revocation list (CRL)| A list that maintains the information necessary to disable a device from being able to acquire licenses and play protected content.|
 | Challenge| A request from a client. A challenge contains information about the client, a list of requested rights, and other information about the content, including the content header and key identifier. |
 | Clear content| A media file that is not encrypted.|
-| Client | Content receiver. May be a device or an app.|
+| Client | Content receiver. May be a device or an application.|
 | Content (protected)| Videos, movies, audio, music, ebooks, executables. May be downloaded and/or streamed.|
 | Content header| Part of the file structure of a PlayReady encrypted file that contains information necessary for a client to decrypt and render the content data. In a packaged file, a content header contains the key identifier, content key, license acquisition URL, and license user interface URL. This content header can also include attributes defined by the content provider.|
 | Cryptographically Random | Unpredictable, in that no polynomial-time algorithm, given any sequence of bits, can guess the succeeding *K* bits with probability greater than ½^*K* + 1/*P*(*K*) for any (positive) polynomial *P* and sufficiently large *K*. |

@@ -45,7 +45,7 @@ The following table shows the current availability and percentage of units shipp
     <th></th>
     <th>In the hardware</th>
     <th>In the OS</th>
-    <th>In the app</th>
+    <th>In the application</th>
   </tr>
   <tr>
     <td>MacOS</td>

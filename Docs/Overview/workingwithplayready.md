@@ -130,13 +130,16 @@ SecureTime is an optional Microsoft-provided service that allows OEMs (Original 
 SecureTime is provided as an optional service by PlayReady.
 
 <a id="whatyousupply"></a>
+
 ## What you supply
 
 What you supply to implement PlayReady depends entirely on what you are trying to develop. Basically, you can develop PlayReady functionality for clients or servers. However, you don't actually have to develop either one if you are a content provider; instead, you could obtain both from a third-party developer. In addition, you don't need to develop either one if you are adding PlayReady functionality to your encoder; you only have to add a PlayReady header during the encoding process. This section will clarify the different ways you can use PlayReady, and provide guidance on what you will need to supply for each type of product.
 
-### PlayReady encoder
+### Packaging PlayReady-protected content
 
-If you are developing an encoder utilizing PlayReady technologies, you will need to include a PlayReady Header in the encrypted content. The PlayReady Header contains information about the content being played back, including the key identifier (KID) that identify the keys used to encrypt the data, the licens acquisition URL of the PlayReady license server, and any custom data that you want to include. The key and KID encrypted in the content must be shared with the PlayReady license server that will be issuing the licenses for that specific content. 
+If you are developing an encoder utilizing PlayReady technologies, you will need to include a PlayReady Header in the encrypted content. The PlayReady Header contains information about the content being played back, including the key identifiers (KIDs) that identify the keys used to encrypt the data, the license acquisition URL of the PlayReady license server, and any custom data that you want to include. The key and KID encrypted in the content must be shared with the PlayReady license server that will be issuing the licenses for that specific content.
+
+For more information about encrypting content and the PlayReady Header, see [Content Encryption and Delivery](contentencryptionanddelivery.md) and the [PlayReady Header Object Specification](https://www.microsoft.com/playready/documents/). 
 
 ### PlayReady client
 

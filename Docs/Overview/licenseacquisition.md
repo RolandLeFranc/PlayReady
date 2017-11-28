@@ -48,7 +48,7 @@ Domain, metering, secure stop, and secure delete support is also included with P
 
 There are two modes for license acquisition:
 
-   *  *Proactive license acquisition*&mdash;Your app explicitly creates a license acquirer and uses it to proactively acquire a license. Proactive license acquisition is typically used to acquire a root license or a persistent license.
+   *  *Proactive license acquisition*&mdash;Your application explicitly creates a license acquirer and uses it to proactively acquire a license. Proactive license acquisition is typically used to acquire a root license or a persistent license.
    *  *Reactive license acquisition*&mdash;When the PlayReady media player plays back protected content that does not yet have a usable license, it automatically uses the associated license acquirer to acquire the license before resuming the playback. Reactive license acquisition can be used to acquire simple or leaf licenses (both persistent and non-persistent).
 
 The following figure gives an architectural overview of content protection and license acquisition.
