@@ -21,7 +21,10 @@ Once you have obtained the parts of the PlayReady ecosystem provided by Microsof
 ## In This Section
 
 [Content Encryption and Delivery](contentencryptionanddelivery.md)
+
 [PlayReady in Clients](playreadyinclients.md)
+
 [PlayReady License Services](playreadylicenseservices.md)
+
 [Other PlayReady Servers](otherplayreadyservers.md)
 

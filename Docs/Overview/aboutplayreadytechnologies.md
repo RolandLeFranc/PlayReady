@@ -21,13 +21,23 @@ Microsoft's implementations of the fundamental technologies discussed in this se
 ## In This Section
 
 [PlayReady Communication Protocols](playreadycommunicationprotocols.md)
+
 [PlayReady Content Encryption](playreadycontentencryption.md)
+
 [Licenses](licenses.md)
+
 [Trusted Clocks](trustedclocks.md)
+
 [PlayReady Metering](playreadymetering.md)
+
 [PlayReady Domains](playreadydomains.md)
+
 [PlayReady Secure Delete](playreadysecuredelete.md)
+
 [PlayReady Secure Stop](playreadysecurestop.md)
+
 [Individualization](individualization.md)
+
 [Revocation](revocation.md)
+
 [PlayReady and Other Protection Technologies](playreadyandotherprotectiontechnologies.md)

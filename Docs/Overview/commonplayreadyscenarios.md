@@ -24,9 +24,13 @@ This section contains PlayReady implementation scenarios that illustrate the typ
 ## In This Section
 
 [Rental Content](scenariorentalcontent.md)
+
 [Subscription Content](scenariosubscriptioncontent.md)
+
 [Purchased Content](scenariopurchasedcontent.md)
+
 [Live TV](scenariolivetv.md)
+
 [Super Distribution](scenariosuperdistribution.md)
  
 

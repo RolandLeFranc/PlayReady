@@ -21,13 +21,23 @@ Licenses are acquired either directly from license servers or through a proxy se
 ## In This Section
 
 [Licenses Overview](licensesoverview.md)
+
 [Output Protection Levels](outputprotectionlevels.md)
+
 [License Generation and Issuance](licensegenerationandissuance.md)
+
 [License Acquisition](licenseacquisition.md)
+
 [License Chaining](licensechaining.md)
+
 [Embedded Licenses](embeddedlicenses.md)
+
 [License Nonce](licensenonce.md)
+
 [Key and Key IDs](keyandkeyidskids1.md)
+
 [Licenses Restricted by Binding Policy](licensesrestrictedbybindingpolicy.md)
+
 [Licenses Restricted by Extensible Policy](licensesrestrictedbyextensiblepolicy.md)
+
 [Best Practices for License Policies](bestpractices.md)
