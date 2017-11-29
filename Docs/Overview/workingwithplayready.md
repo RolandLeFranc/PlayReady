@@ -123,6 +123,8 @@ The PlayReady Test Server website includes documentation and test tools for Play
 
 The PlayReady Test Server is provided as an optional service to PlayReady developers. You do not need to use this service to test or certify your PlayReady implementations. For more information, see the [PlayReady Test Server](http://test.playready.microsoft.com/) website.
 
+<a id="securetime"></a>
+
 ### SecureTime service
 
 SecureTime is an optional Microsoft-provided service that allows OEMs (Original Equipment Manufacturers) to build such clocks that securely synchronize time information from the server in the TEE (Trusted Execution Environment), reaching SL3000 (Security Level 3000). It uses functions in the PlayReady Device Porting Kit (PK), HTTPS protocols, and Azure Web Services.

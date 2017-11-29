@@ -44,8 +44,6 @@
 
 #### [Licenses](Overview/licenses.md)
 
-##### [Licenses Overview](Overview/licensesoverview.md)
-
 ##### [Output Protection Levels](Overview/outputprotectionlevels.md)
 
 ##### [License Generation and Issuance](Overview/licensegenerationandissuance.md)

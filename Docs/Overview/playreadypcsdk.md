@@ -6,7 +6,7 @@ ms.assetid: "01e7b2ed-2204-9f0c-9d2d-901b4fe5f7c0"
 kindex: PlayReady PC SDK, overview
 kindex: overview, PlayReady PC SDK
 kindex: PlayReady, Windows
-keywords:  overview PlayReady PC SDK,  PlayReady PC SDK overview,  Windows PlayReady
+keywords:  Windows, UWP, PC, Windows 7, Mac OS, PC SDK
 ms.author: 
 ms.topic: conceptual
 ms.prod: playready
