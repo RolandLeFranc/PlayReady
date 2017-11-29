@@ -135,7 +135,7 @@ SecureTime is provided as an optional service by PlayReady.
 
 ## What you supply
 
-What you supply to implement PlayReady depends entirely on what you are trying to develop. Basically, you can develop PlayReady functionality for clients or servers. However, you don't actually have to develop either one if you are a content provider; instead, you could obtain both from a third-party developer. In addition, you don't need to develop either one if you are adding PlayReady functionality to your encoder; you only have to add a PlayReady header during the encoding process. This section will clarify the different ways you can use PlayReady, and provide guidance on what you will need to supply for each type of product.
+What you supply to implement PlayReady depends entirely on what you are trying to develop. Basically, you can develop PlayReady functionality for clients or servers. However, you don't actually have to develop either one if you are a content provider; instead, you could obtain both from a third-party developer or [PlayReady Partner](https://www.microsoft.com/playready/partners/). In addition, you don't need to develop either one if you are adding PlayReady functionality to your encoder; you only have to add a PlayReady header during the encoding process. This section will clarify the different ways you can use PlayReady, and provide guidance on what you will need to supply for each type of product.
 
 ### Packaging PlayReady-protected content
 
@@ -149,11 +149,19 @@ A PlayReady client can be any device or application that provides PlayReady prot
 
 #### Device on which to install the PlayReady Device Porting Kit
 
+If you are designing a device with PlayReady installed in hardware or PlayReady on an integrated circuit, it is up to you to supply any hardware or software required to port the PlayReady Device Porting kit to your hardware. Some integrated circuits designed by [PlayReady Partners](https://www.microsoft.com/playready/partners/) already have PlayReady installed on the chip, and you could use these integrated circuits while designing your device. 
+
+For general information about developing hardware-based PlayReady, see [Hardware DRM](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/hardware-drm).
+
 #### Application using the PlayReady Device Porting Kit
 
 #### Windows or Xbox application
 
+PlayReady DRM enables developers to create UWP apps capable of providing PlayReady content to the user while enforcing the access rules defined by the content provider. If you are designing an application that runs on Windows or Xbox, see [PlayReady DRM](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/playready-client-sdk).
+
 #### Hardware versus software DRM
+
+Increasingly, content providers are moving towards hardware-based protections for granting permission to play back full high value content in apps. Robust support for a hardware implementation of the cryptographic core has been added to PlayReady to meet this need. This support enables secure playback of high definition (1080p) and ultra-high definition (UHD) (4K) content on multiple device platforms. Key material (including private keys, content keys, and any other key material used to derive or unlock said keys), and decrypted compressed and uncompressed video samples are protected by leveraging hardware security. Hardware-based PlayReady DRM is supported on a multitude of devices, including both Windows and non-Windows devices such as TV sets, phones, and tablets.
 
 ### PlayReady server
 

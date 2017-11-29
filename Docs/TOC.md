@@ -12,13 +12,13 @@
 
 #### [PlayReady Server SDK](Overview/playreadyserversdk.md)
 
+#### [PlayReady Device Porting Kit](Overview/playreadyportingkit.md)
+
 #### [PlayReady for Windows](Overview/playreadypcsdk.md)
 
 #### [PlayReady and Silverlight](Overview/playreadyandsilverlight.md)
 
 #### [PlayReady Client SDK for iOS](Overview/playreadyproductios.md)
-
-#### [PlayReady Device Porting Kit](Overview/playreadyportingkit.md)
 
 #### [Porting Kit Version Compatibility with Server SDK Versions](Overview/portingkitversioncompatibilitywithserversdkversions.md)
 
