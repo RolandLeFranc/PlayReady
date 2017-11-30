@@ -42,6 +42,8 @@ Clients acquire licenses either directly from license servers or through a proxy
 
 [Key and Key IDs](keyandkeyidskids1.md)
 
+[License and Policies](licenseandpolicies.md)
+
 [Licenses Restricted by Binding Policy](licensesrestrictedbybindingpolicy.md)
 
 [Licenses Restricted by Extensible Policy](licensesrestrictedbyextensiblepolicy.md)

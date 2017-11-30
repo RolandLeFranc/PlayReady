@@ -58,6 +58,8 @@
 
 ##### [Key and Key IDs (KIDs)](Overview/keyandkeyidskids1.md)
 
+##### [License and Policies](Overview/licenseandpolicies.md)
+
 ##### [Licenses Restricted by Binding Policy](Overview/licensesrestrictedbybindingpolicy.md)
 
 ##### [Licenses Restricted by Extensible Policy](Overview/licensesrestrictedbyextensiblepolicy.md)
