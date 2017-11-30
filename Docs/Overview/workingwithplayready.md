@@ -156,7 +156,7 @@ See the [PlayReady Partners](https://www.microsoft.com/playready/partners) page 
 
 <a id="playreadypackager"></a>
 
-### Developing and operating a PlayReady packager
+## Developing and operating a PlayReady packager
 
 If you are developing an encoder utilizing PlayReady technologies, you will need to include a PlayReady Header in the encrypted content. The PlayReady Header contains information about the content being played back, including the key identifiers (KIDs) that identify the keys used to encrypt the data, the default license acquisition URL of the PlayReady license server, and any custom data that you want to include. The key and KID used to encrypt the content must be shared with the PlayReady license server that will be issuing the licenses for that specific content, typically through a Key Management System.
 
@@ -165,7 +165,7 @@ For more information about encrypting content and the PlayReady Header, see [Con
 >[!NOTE]
 >Microsoft does not provide a Key Management System with PlayReady.
 
-### Developing and operating a PlayReady Client
+## Developing and operating a PlayReady Client
 
 A PlayReady Client can be any device or application that provides PlayReady protection for media content and includes the PlayReady Client functionality. A PlayReady Client can be embedded in hardware, can be supplied as part of the operating system, or can be included in an application. This excludes applications that are developed to use an existing underlying PlayReady Client integrated in the platform, for example UWP apps for Windows using the PlayReady Client integrated in Windows 10 and not containing any PlayReady code per se.
 
@@ -182,19 +182,19 @@ The following table clarifies whether a PlayReady Client needs to be developed o
 | Application running on an iOS phone and containing PlayReady PK Code and a PlayReady Client Certificate in the application| Yes, the application is a PlayReady Client|
 | UWP application running on Windows 10| No, the application just uses an existing PlayReady Client|
 
-#### Device on which to install the PlayReady Device Porting Kit
+### Device on which to install the PlayReady Device Porting Kit
 
 If you are designing a device with PlayReady installed in hardware or PlayReady on an integrated circuit, it is up to you to supply any hardware or software required to port the PlayReady Device Porting kit to your hardware. Some integrated circuits designed by [PlayReady Partners](https://www.microsoft.com/playready/partners/) already have PlayReady installed on the chip, and you could use these integrated circuits while designing your device. 
 
 For general information about developing hardware-based PlayReady, see [Hardware versus software DRM](#hardwarevssoftware).
 
-#### Windows or Xbox application
+### Windows or Xbox application
 
 PlayReady DRM enables developers to create UWP apps capable of providing PlayReady content to the user while enforcing the access rules defined by the content provider. If you are designing an application that runs on Windows or Xbox, see [PlayReady DRM](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/playready-client-sdk).
 
 <a id="hardwarevssoftware"></a>
 
-#### Hardware versus software DRM
+### Hardware versus software DRM
 
 Increasingly, content providers are moving towards hardware-based protections for granting permission to play back full high value content in apps. Robust support for a hardware implementation of the cryptographic core has been added to PlayReady to meet this need. This support enables secure playback of higher value content on multiple device platforms. Key material (including private keys, content keys, and any other key material used to derive or unlock said keys), and decrypted compressed and uncompressed video samples are protected by leveraging hardware security. Hardware-based PlayReady DRM is supported on a multitude of devices, including both Windows and non-Windows devices such as TV sets, phones, and tablets.
 
