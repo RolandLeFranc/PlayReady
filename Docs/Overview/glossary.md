@@ -25,6 +25,7 @@ The following high-level terms are used throughout this documentation.
 | Anti-rollback clock| A process by which PlayReady detects whether a clock on the client has been reset to an earlier time by the user and triggers a rollback event. |
 | Attacker | Person trying to get unauthorized access to content or client secrets. In DRM (Digital Rights Management), any user may be an attacker.|
 | CA| Certificate Authority. |
+| CBC mode | An AES encryption mode. Cipher Block Chaining (CBC) mode turns a block cipher into a stream cipher. |
 | Certificate | A digitally-signed binary document used to grant and revoke privileges to devices and computers to perform specific operations.|
 | Certificate revocation list (CRL)| A list that maintains the information necessary to disable a device from being able to acquire licenses and play protected content.|
 | Challenge| A request from a client. A challenge contains information about the client, a list of requested rights, and other information about the content, including the content header and key identifier. |
@@ -32,8 +33,9 @@ The following high-level terms are used throughout this documentation.
 | Client | Content receiver. May be a device or an application.|
 | Content (protected)| Videos, movies, audio, music, ebooks, executables. May be downloaded and/or streamed.|
 | Content header| Part of the file structure of a PlayReady encrypted file that contains information necessary for a client to decrypt and render the content data. In a packaged file, a content header contains the key identifier, content key, license acquisition URL, and license user interface URL. This content header can also include attributes defined by the content provider.|
+| CR| Compliance Rules for PlayReady Products.|
+| CR&RR| Compliance and Robustness Rules.|
 | Cryptographically Random | Unpredictable, in that no polynomial-time algorithm, given any sequence of bits, can guess the succeeding *K* bits with probability greater than ½^*K* + 1/*P*(*K*) for any (positive) polynomial *P* and sufficiently large *K*. |
-| CBC mode | An AES encryption mode. Cipher Block Chaining (CBC) mode turns a block cipher into a stream cipher. |
 | CTR mode | An AES encryption mode. Counter (CTR) mode turns a block cipher into a stream cipher. |
 | Customer | Company that uses PlayReady to build a service or client.|
 | Decrypt | To convert encrypted content back into its original form. |
@@ -43,6 +45,7 @@ The following high-level terms are used throughout this documentation.
 | Domain (PlayReady domain)| A PlayReady entity that lets you manage content access for multiple clients. A PlayReady domain is not the same as network or Web domains.|
 | Domain (CA) certificate| An XML string used to sign domain certificates issued to clients.|
 | Domain controller| A PlayReady server that manages domain membership. A domain controller determines what the domain represents (a user, a family, or a group of users, for example) and holds a list of entities that are associated with it.|
+| DT| Defined Terms for PlayReady Compliance and Robustness Rules.|
 | ECC | Elliptic curve cryptography.|
 | Embedded license store (ELS)| A record for storing embedded licenses.|
 | Encrypt| To programmatically disguise content to hide its substance.|
@@ -86,6 +89,7 @@ The following high-level terms are used throughout this documentation.
 | Rights| An attribute of a license that specifies the conditions under which a client can use a media file.|
 | Robustness| Rules that specify whether a specific device is sufficiently robust to resist attacks.|
 | Root license| The element of a license chain that is bound to a device and is required to decrypt the content key in the leaf license.|
+| RR| Robustness Rules for PlayReady Products.|
 | SDK| Software development kit.|
 | Secrets | <b>Content secrets</b>: Content encryption key. <b>Client secrets</b>: Device unique private key, device PlayReady TEE key. |
 | Secure clock| A hardware clock that can only be set by specific routines – it cannot be set by the user.|

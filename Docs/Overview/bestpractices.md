@@ -18,7 +18,9 @@ ms.technology: xboxone
    
   
 This section describes best practices for programming license policies.   
- 
+
+<a id="begindate"></a>
+
 ## Using BeginDate with EndDate
    
   
